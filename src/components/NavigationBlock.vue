@@ -3,9 +3,10 @@
     <v-btn @click="$emit('clickedFirst')">Первая</v-btn>
     <v-text-field
         label="Введите номер строки"
-        hide-details="auto"
-        class="input"
+        variant="solo"
+        density="compact"
         v-model="index"
+        class="input"
     ></v-text-field>
     <v-btn @click="$emit('clickedIndex', index)">Перейти</v-btn>
     <v-btn @click="$emit('clickedLast')">Последняя</v-btn>
@@ -23,7 +24,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .navigation {
   border: 1px solid rgba(115, 115, 115, 0.5);
   display: flex;
@@ -31,6 +32,9 @@ export default {
   align-items: center;
   gap: 5px;
   padding: 5px;
+}
+.v-input__details {
+  display: none !important;
 }
 @media (max-width: 575px) {
   .navigation {
