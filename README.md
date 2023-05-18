@@ -1,6 +1,6 @@
-# scroller
-
-## Project setup
+# Scroller
+![alt text](https://github.com/Muhammet95/Scroller/blob/master/public/screenshot.png?raw=true)
+## Setup
 ```
 npm install
 ```
@@ -20,5 +20,7 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Contact me
+- go.suits.3@gmail.com
+- t.me/@muhammet210195
+
